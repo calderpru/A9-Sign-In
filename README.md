@@ -24,7 +24,4 @@ sign-in.html: Takes user input for text input boxes
   - add your own image
   - link to your own create account html page
 
-
-
-    
-  
+![diagram](https://github.com/calderpru/A9-Sign-In/assets/131316452/07cd6f4c-7aa7-4041-9e2f-0252e34c925c)
