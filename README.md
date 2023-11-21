@@ -1,6 +1,10 @@
 # A9-Sign-In
 This is a sign in form for a website.
 
+Communication Contract
+  - Reply within 24hrs
+  - Meet at least one a week
+    
 Request Data: Request access to the home page by entering in a correct username and password
 
   username: user
