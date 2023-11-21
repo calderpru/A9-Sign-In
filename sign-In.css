@@ -1,0 +1,122 @@
+*{
+    font-family: 'Aldrich', sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+
+    /*  black border on header
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    */
+}
+
+.header-left img {
+    height: 50px;
+}
+
+
+.header-right a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.logo {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* Adjust this value as needed */
+    max-width: 400px; /* Optional: Set a maximum width */
+}
+
+.sign-in-form input[type="text"],
+.sign-in-form input[type="email"],
+.sign-in-form input[type="password"] {
+    width: calc(100% - 20px); /* Adjust width accounting for padding */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: .5px solid black;
+}
+
+.sign-in-form button {
+    width: calc(100%); /* Adjust width accounting for padding */
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.sign-in-form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.alternative-signup {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.alternative-signup span {
+    display: block;
+    margin-bottom: 30px;
+    color: rgb(177, 177, 177);
+}
+
+.google-signup, .steam-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px; 
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+.google-signup:hover {
+    background-color: black;
+    color: white;
+}
+
+.steam-signup:hover {
+    background-color: black;
+    color: white;
+}
